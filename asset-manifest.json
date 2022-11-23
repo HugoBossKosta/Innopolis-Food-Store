@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Innopolis-Food-Store/static/css/main.a0fc1ab9.css",
+    "main.js": "/Innopolis-Food-Store/static/js/main.47de930e.js",
+    "index.html": "/Innopolis-Food-Store/index.html",
+    "main.a0fc1ab9.css.map": "/Innopolis-Food-Store/static/css/main.a0fc1ab9.css.map",
+    "main.47de930e.js.map": "/Innopolis-Food-Store/static/js/main.47de930e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0fc1ab9.css",
+    "static/js/main.47de930e.js"
+  ]
+}
