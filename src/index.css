@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;600 & display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222;
+    color: #fff;
+    font-family: 'Montserrant', sans-serif;
+    font-weight: 300;
+}
+
+.wrapper {
+    width: 1350px;
+    margin: 0px auto;
+    color: #fff;
+}
+
+header {
+    position: relative;
+    margin-top: 50px;
+    margin-right: 25px;
+}
+
+header .logo {
+    line-height: 38px;
+    font-weight: 700;
+    font-size: 31px;
+}
+
+header ul.nav {
+    float: right;
+    list-style: none;
+}
+
+header ul.nav li {
+    display: inline;
+    padding: 12px 75px 12px 75px; 
+    border: 2px solid #D58C51;
+    margin-left: 22px;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+
+header ul.nav li:hover {
+    color: #D58C51;
+}
+
+header .shop-cart-button {
+    float: right;
+    cursor: pointer;
+    border: 15px solid #D58C51;
+    background: #D58C51;
+    border-radius: 50%;
+    transition: color, transform 500ms ease;
+    margin-top: -14px;
+}
+
+header .shop-cart-button:hover,
+header .shop-cart-button.active {
+    transform: scale(1.5);
+}
+
+header .shop-cart {
+    position: absolute;
+    top: 56px;
+    right: 0;
+    height: 2100%;
+    width: 97%;
+    background: #222;
+    z-index: 1000;
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+header .shop-cart .empty h2 {
+    font-size: 12px;
+    float: right;
+    margin: -54px 335px 0 0px;
+}
+
+header .shop-cart .item {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+header .shop-cart .item img {
+    width: 122px;
+    height: 122px;
+    float: left;
+    margin-left: 179px;
+    margin-right: 37px;
+}
+
+
+header .shop-cart .item h2 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 49px 0 0 160px;
+}
+
+header .shop-cart .item b {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+    float: right;
+    margin: -21px 324px 0 0px;
+}
+
+header .shop-cart .item p {
+    font-weight: 600;
+}
+
+header .shop-cart .item .delete-icon {
+    color: #D58C51;
+    margin-top: -25px;
+    margin-right: -106px;
+    width: 3%;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+header .shop-cart .item .delete-icon:hover {
+    transform: scale(1.5);
+}
+
+header .shop-cart .summa {
+    float: left;
+    width: 99%;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin-top: 33px;
+    margin-left: 240px;
+}
+
+.summa-head {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin: auto;
+    margin: 0px -30px 0 850px;
+}
+
+.full-item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #222;
+    z-index: 9999;
+    overflow: auto;
+}
+
+.full-item img {
+    position: absolute;
+    width: 501px;
+    height: 503px;
+    right: 265px;
+    margin: 0px 0px 0px 140px;
+    border-radius: 10px 10px 0 0;
+    transition: transform 500ms ease;
+    cursor: pointer;
+}
+
+.full-item img:hover {
+    transform: scale(1.05);
+
+}
+
+.full-item>div {
+    width: 200px;
+    position: relative;
+    margin: 10% auto;
+    padding: 40px 30px;
+    background: #222;
+    border-radius: 9px;
+}
+
+
+.full-item h2 {
+    color: #D58C51;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 33px;
+    margin: 86px -410px 0 199px;
+    transition: color 500ms ease;
+}
+
+.full-item p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 21px -410px 0 199px;
+    color: #fff;
+    transition: color 500ms ease;
+
+}
+
+.full-item {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #fff;
+    transition: color 500ms ease;
+}
+
+main {
+    margin: 50px auto;
+    overflow-x: auto;
+    column-gap: 20px;
+    height: calc(93vh - 107px);
+    row-gap: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+main .item {
+    width: 312px;
+    height: 552px;
+    border: 2px solid #D58C51;
+    position: relative;
+    
+}
+
+main .item img {
+    width: 270px;
+    height: 271px;
+    margin: 43px -20px 31px 20px;
+    border-radius: 10px 10px 0 0;
+    transition: transform 500ms ease;
+    cursor: pointer;
+}
+
+main .item img:hover {
+    transform: scale(1.05);
+
+}
+
+main h2 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 10px 20px;
+    color: #fff;
+    transition: color 500ms ease;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 10px 20px;
+    color: #fff;
+    transition: color 500ms ease;
+
+}
+main .full-item {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 10px 20px;
+    color: #fff;
+    transition: color 500ms ease;
+}
+
+.full-item .rate {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 188px -302px 0 199px;
+    color: #fff;
+    transition: color 500ms ease;
+}
+
+main .rate {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 10px 20px;
+    bottom: 26px;
+    color: #fff;
+    transition: color 500ms ease;
+}
+
+main .rate:hover {
+    color: #D58C51;
+}
+
+main .heft {
+    position: absolute;
+    right: 183px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 10px 0px;
+    bottom: 26px;
+    color: #fff;
+    transition: color 500ms ease;
+}
+
+.full-item .heft {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 188px -302px 0 255px;
+    color: #fff;
+    transition: color 500ms ease;
+}
+
+main .heft:hover {
+    color: #D58C51;
+}
+
+main .full-item  {
+    color: #fff;
+    transition: color 500ms ease;
+}
+
+main h2:hover, p:hover {
+    color: #D58C51;
+}
+
+.full-item h2:hover, p:hover, .heft:hover, .rate:hover {
+    color: #D58C51;
+}
+
+main .add-to-cart {
+    position: absolute;
+    right: 20px;
+    bottom: 32px;
+    padding: 5px 0px 4px 0;
+    color: #ffffff;
+    width: 10%;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.full-item .add-to-cart {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    position: absolute;
+    margin: 175px -299px 0 387px;
+    color: #ffffff;
+    width: 69%;
+    text-align: center;
+    background: #D58C51;
+    border: 1px solid #D58C51;
+    cursor: pointer;
+    transition: transform 500ms;
+}
+
+
+
+main .add-to-cart:hover,
+.full-item .add-to-cart:hover {
+    background: #D58C51;
+    border: 0px;
+    transform: scale(1.5) translateY(-5px);
+}
+
